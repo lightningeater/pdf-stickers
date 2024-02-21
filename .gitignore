@@ -1,0 +1,6 @@
+node_modules
+qrcodegen/
+output/
+.DS_Store
+pdfgen/sticflic-mvp-firebase-adminsdk.json
+*.pdf

@@ -1,0 +1,32 @@
+export default {
+  "2x2": {
+    rows: 4,
+    columns: 3,
+    startX: 45,
+    startY: 45,
+    xMargin: 45,
+    yMargin: 41.625,
+    imageSize: 144,
+    layout: "portrait",
+  },
+  "1x1": {
+    rows: 6,
+    columns: 8,
+    startX: 45,
+    startY: 45,
+    xMargin: 18,
+    yMargin: 18,
+    imageSize: 72,
+    layout: "landscape",
+  },
+  "1.5x1.5": {
+    layout: "landscape",
+    rows: 4,
+    columns: 5,
+    startX: 42.48,
+    startY: 36.36,
+    xMargin: 40.5,
+    yMargin: 36,
+    imageSize: 108,
+  },
+};

@@ -1,0 +1,19 @@
+{
+  "name": "pdfgen",
+  "version": "1.0.0",
+  "description": "pdf generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "esbuild index.js --bundle --platform=node --external:./node_modules/* --outfile=./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.49",
+    "firebase-admin": "^11.2.0",
+    "lowdb": "^3.0.0",
+    "pdfkit": "^0.13.0"
+  }
+}

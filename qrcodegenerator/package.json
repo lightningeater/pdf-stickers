@@ -1,0 +1,24 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-json-modules --prof --trace-warnings ./index.js",
+    "profile": "0x -o index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "0x": "^5.3.1",
+    "canvas": "^2.9.3",
+    "convert-svg-to-png": "^0.6.4",
+    "jsdom": "^20.0.0",
+    "lowdb": "^3.0.0",
+    "nanoid": "^4.0.0",
+    "node-self": "^1.0.0-d",
+    "qr-code-styling": "^1.6.0-rc.1",
+    "qr-code-styling-node": "^1.5.0"
+  }
+}
